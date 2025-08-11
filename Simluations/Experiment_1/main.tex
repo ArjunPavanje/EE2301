@@ -55,12 +55,9 @@
 \maketitle
 
 
-Aim, Apparatus, theory, spicemodels, circuits, plots, conclusion
 \section{Aim} To characterize the electrical behavior of diodes, BJTs, and MOSFETs by plotting their I-V characteristics through simulations (LTspice).
 \section{Apparatus}
 Laptop
-\section{Theory}
-\section{Procedure}
 \subsection{Basic Procedure},
 \begin{enumerate}
     \item Opening components menu,
@@ -76,16 +73,16 @@ Laptop
         \label{fig:placeholder}
     \end{figure}
     \item Running simulation,
-    \pagebreak
     \begin{figure}[h!]
         \centering
         \includegraphics[width=0.5\linewidth]{figs/run.png}
         \label{fig:placeholder}
     \end{figure}
 \end{enumerate}
+\pagebreak
 \subsection{MOSFET}
 \begin{enumerate}
-    \item Select the MOSFET (shown in the figure) and 2 voltage sources.
+    \item Select the MOSFET (shown in the figure), 2 resistors, 2 voltage sources.
     \begin{figure}[h!]
         \centering
         \includegraphics[width = 0.6\linewidth]{figs/component-nmos.png}
@@ -175,8 +172,9 @@ Laptop
         \includegraphics[width=0.5\linewidth]{figs/diode-circuit.png}
         \label{fig:placeholder}
     \end{figure}
+    \newline
     \item Configure DC sweep settings from the $Simulate$ bar. These were the settings used in this case,
-    \begin{figure}[h!]
+    \begin{figure}[ht!]
         \centering
         \includegraphics[width=0.5\linewidth]{figs/diode-sweep.png}
         \label{fig:placeholder}
@@ -184,17 +182,20 @@ Laptop
     
     \item Run the simulation
 \end{enumerate}
+\pagebreak
 \section{Plots}
     \subsection{MOSFET}
     \begin{figure}[h!]
         \centering
         \includegraphics[width=1\linewidth]{figs/mosfet-plot.png}
     \end{figure}
+    \pagebreak
     \subsection{BJT}
     \begin{figure}[h!]
         \centering
         \includegraphics[width=1\linewidth]{figs/bjt-plot.png}
     \end{figure}
+    \pagebreak
     \subsection{Diode}
     \begin{figure}[h!]
         \centering
