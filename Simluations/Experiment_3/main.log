@@ -1,0 +1,582 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  2 SEP 2025 21:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/opt/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/opt/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/opt/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/opt/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/opt/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen144
+))
+(/opt/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count270
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count271
+\leftroot@=\count272
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count273
+\DOTSCASE@=\count274
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count275
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count276
+\dotsspace@=\muskip17
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
+\tag@help=\toks19
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
+\andhelp@=\toks20
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks21
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count282
+\multirow@dima=\skip55
+\bigstrutjot=\dimen153
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box54
+\extrarowheight=\dimen155
+\NC@list=\toks23
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box55
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen156
+\c@nlinenum=\count283
+\TeXr@lab=\toks24
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/opt/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/opt/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count284
+\Gm@cntv=\count285
+\c@Gm@tempcnt=\count286
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@layoutwidth=\dimen161
+\Gm@layoutheight=\dimen162
+\Gm@layouthoffset=\dimen163
+\Gm@layoutvoffset=\dimen164
+\Gm@dimlist=\toks25
+)
+(/opt/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box56
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+(/opt/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count288
+\scratchdimen=\dimen165
+\scratchbox=\box57
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen166
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks27
+) (/opt/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/opt/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<logo.png, id=1, 1204.5pt x 1318.9275pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 41.
+(pdftex.def)             Requested size: 100.0pt x 109.48102pt.
+
+
+[1
+
+{/opt/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
+
+[2]
+<figs/mosfet_cs_ckt.png, id=17, 1017.8025pt x 710.655pt>
+File: figs/mosfet_cs_ckt.png Graphic file (type png)
+<use figs/mosfet_cs_ckt.png>
+Package pdftex.def Info: figs/mosfet_cs_ckt.png  used on input line 77.
+(pdftex.def)             Requested size: 328.82707pt x 229.59383pt.
+<figs/mosfet_cs_op.png, id=18, 1253.68375pt x 863.225pt>
+File: figs/mosfet_cs_op.png Graphic file (type png)
+<use figs/mosfet_cs_op.png>
+Package pdftex.def Info: figs/mosfet_cs_op.png  used on input line 82.
+(pdftex.def)             Requested size: 328.82707pt x 226.40897pt.
+
+
+[3 <./figs/mosfet_cs_ckt.png (PNG copy)> <./figs/mosfet_cs_op.png (PNG copy)>]
+<figs/mosfet_cs_mb.png, id=22, 1889.0575pt x 857.2025pt>
+File: figs/mosfet_cs_mb.png Graphic file (type png)
+<use figs/mosfet_cs_mb.png>
+Package pdftex.def Info: figs/mosfet_cs_mb.png  used on input line 88.
+(pdftex.def)             Requested size: 328.82707pt x 149.20174pt.
+<figs/mosfet_cs_bw.png, id=23, 1889.0575pt x 891.33pt>
+File: figs/mosfet_cs_bw.png Graphic file (type png)
+<use figs/mosfet_cs_bw.png>
+Package pdftex.def Info: figs/mosfet_cs_bw.png  used on input line 93.
+(pdftex.def)             Requested size: 328.82707pt x 155.14185pt.
+<figs/mosfet_cs_tr.png, id=24, 1887.05pt x 864.22874pt>
+File: figs/mosfet_cs_tr.png Graphic file (type png)
+<use figs/mosfet_cs_tr.png>
+Package pdftex.def Info: figs/mosfet_cs_tr.png  used on input line 98.
+(pdftex.def)             Requested size: 328.82707pt x 150.59613pt.
+
+
+[4 <./figs/mosfet_cs_mb.png (PNG copy)> <./figs/mosfet_cs_bw.png (PNG copy)> <.
+/figs/mosfet_cs_tr.png (PNG copy)>]
+<figs/mosfet_cs_rin.png, id=28, 1885.0425pt x 864.22874pt>
+File: figs/mosfet_cs_rin.png Graphic file (type png)
+<use figs/mosfet_cs_rin.png>
+Package pdftex.def Info: figs/mosfet_cs_rin.png  used on input line 104.
+(pdftex.def)             Requested size: 328.82707pt x 150.75436pt.
+<figs/mosfet_cs_rout.png, id=29, 1883.035pt x 874.26625pt>
+File: figs/mosfet_cs_rout.png Graphic file (type png)
+<use figs/mosfet_cs_rout.png>
+Package pdftex.def Info: figs/mosfet_cs_rout.png  used on input line 109.
+(pdftex.def)             Requested size: 328.82707pt x 152.66537pt.
+
+Overfull \hbox (1.56929pt too wide) in paragraph at lines 120--127
+[] 
+ []
+
+
+
+[5 <./figs/mosfet_cs_rin.png (PNG copy)> <./figs/mosfet_cs_rout.png (PNG copy)>
+]
+<figs/mosfet_cd_ckt.png, id=40, 1042.89626pt x 575.14874pt>
+File: figs/mosfet_cd_ckt.png Graphic file (type png)
+<use figs/mosfet_cd_ckt.png>
+Package pdftex.def Info: figs/mosfet_cd_ckt.png  used on input line 133.
+(pdftex.def)             Requested size: 328.82707pt x 181.34833pt.
+<figs/mosfet_cd_op.png, id=41, 1256.695pt x 909.3975pt>
+File: figs/mosfet_cd_op.png Graphic file (type png)
+<use figs/mosfet_cd_op.png>
+Package pdftex.def Info: figs/mosfet_cd_op.png  used on input line 138.
+(pdftex.def)             Requested size: 328.82707pt x 237.95029pt.
+
+
+[6 <./figs/mosfet_cd_ckt.png (PNG copy)> <./figs/mosfet_cd_op.png (PNG copy)>]
+<figs/mosfet_cd_mb.png, id=45, 1888.05376pt x 865.2325pt>
+File: figs/mosfet_cd_mb.png Graphic file (type png)
+<use figs/mosfet_cd_mb.png>
+Package pdftex.def Info: figs/mosfet_cd_mb.png  used on input line 144.
+(pdftex.def)             Requested size: 328.82707pt x 150.69182pt.
+<figs/mosfet_cd_bw.png, id=46, 1886.04625pt x 868.24374pt>
+File: figs/mosfet_cd_bw.png Graphic file (type png)
+<use figs/mosfet_cd_bw.png>
+Package pdftex.def Info: figs/mosfet_cd_bw.png  used on input line 149.
+(pdftex.def)             Requested size: 328.82707pt x 151.37524pt.
+<figs/mosfet_cd_tr.png, id=47, 1888.05376pt x 870.25125pt>
+File: figs/mosfet_cd_tr.png Graphic file (type png)
+<use figs/mosfet_cd_tr.png>
+Package pdftex.def Info: figs/mosfet_cd_tr.png  used on input line 154.
+(pdftex.def)             Requested size: 328.82707pt x 151.5659pt.
+
+
+[7 <./figs/mosfet_cd_mb.png (PNG copy)> <./figs/mosfet_cd_bw.png (PNG copy)> <.
+/figs/mosfet_cd_tr.png (PNG copy)>]
+<figs/mosfet_cd_rin.png, id=52, 1889.0575pt x 882.29625pt>
+File: figs/mosfet_cd_rin.png Graphic file (type png)
+<use figs/mosfet_cd_rin.png>
+Package pdftex.def Info: figs/mosfet_cd_rin.png  used on input line 160.
+(pdftex.def)             Requested size: 328.82707pt x 153.56946pt.
+<figs/mosfet_cd_rout.png, id=53, 1889.0575pt x 893.3375pt>
+File: figs/mosfet_cd_rout.png Graphic file (type png)
+<use figs/mosfet_cd_rout.png>
+Package pdftex.def Info: figs/mosfet_cd_rout.png  used on input line 165.
+(pdftex.def)             Requested size: 328.82707pt x 155.49126pt.
+
+
+[8 <./figs/mosfet_cd_rin.png (PNG copy)> <./figs/mosfet_cd_rout.png (PNG copy)>
+]
+<figs/mosfet_cg_ckt.png, id=57, 943.525pt x 865.2325pt>
+File: figs/mosfet_cg_ckt.png Graphic file (type png)
+<use figs/mosfet_cg_ckt.png>
+Package pdftex.def Info: figs/mosfet_cg_ckt.png  used on input line 188.
+(pdftex.def)             Requested size: 328.82707pt x 301.54208pt.
+File: figs/mosfet_cd_op.png Graphic file (type png)
+<use figs/mosfet_cd_op.png>
+Package pdftex.def Info: figs/mosfet_cd_op.png  used on input line 193.
+(pdftex.def)             Requested size: 328.82707pt x 237.95029pt.
+
+
+[9 <./figs/mosfet_cg_ckt.png (PNG copy)>]
+<figs/mosfet_cg_mb.png, id=61, 1606.0pt x 731.73375pt>
+File: figs/mosfet_cg_mb.png Graphic file (type png)
+<use figs/mosfet_cg_mb.png>
+Package pdftex.def Info: figs/mosfet_cg_mb.png  used on input line 199.
+(pdftex.def)             Requested size: 328.82707pt x 149.81657pt.
+<figs/mosfet_cg_bw.png, id=62, 1606.0pt x 732.7375pt>
+File: figs/mosfet_cg_bw.png Graphic file (type png)
+<use figs/mosfet_cg_bw.png>
+Package pdftex.def Info: figs/mosfet_cg_bw.png  used on input line 204.
+(pdftex.def)             Requested size: 328.82707pt x 150.02208pt.
+<figs/mosfet_cg_tr.png, id=63, 1606.0pt x 730.73pt>
+File: figs/mosfet_cg_tr.png Graphic file (type png)
+<use figs/mosfet_cg_tr.png>
+Package pdftex.def Info: figs/mosfet_cg_tr.png  used on input line 209.
+(pdftex.def)             Requested size: 328.82707pt x 149.61107pt.
+
+
+[10 <./figs/mosfet_cg_mb.png> <./figs/mosfet_cg_bw.png> <./figs/mosfet_cg_tr.pn
+g>]
+<figs/mosfet_cg_rin.png, id=70, 1883.035pt x 905.3825pt>
+File: figs/mosfet_cg_rin.png Graphic file (type png)
+<use figs/mosfet_cg_rin.png>
+Package pdftex.def Info: figs/mosfet_cg_rin.png  used on input line 215.
+(pdftex.def)             Requested size: 328.82707pt x 158.09894pt.
+<figs/mosfet_cg_rout.png, id=71, 1888.05376pt x 863.225pt>
+File: figs/mosfet_cg_rout.png Graphic file (type png)
+<use figs/mosfet_cg_rout.png>
+Package pdftex.def Info: figs/mosfet_cg_rout.png  used on input line 220.
+(pdftex.def)             Requested size: 328.82707pt x 150.3422pt.
+
+Overfull \hbox (6.93732pt too wide) in paragraph at lines 233--241
+[]
+ []
+
+
+
+[11 <./figs/mosfet_cg_rin.png (PNG copy)> <./figs/mosfet_cg_rout.png (PNG copy)
+>]
+<figs/bjt_ce_ckt.png, id=75, 1485.55pt x 899.36pt>
+File: figs/bjt_ce_ckt.png Graphic file (type png)
+<use figs/bjt_ce_ckt.png>
+Package pdftex.def Info: figs/bjt_ce_ckt.png  used on input line 246.
+(pdftex.def)             Requested size: 328.82707pt x 199.06744pt.
+<figs/bjt_ce_op.png, id=76, 1256.695pt x 899.36pt>
+File: figs/bjt_ce_op.png Graphic file (type png)
+<use figs/bjt_ce_op.png>
+Package pdftex.def Info: figs/bjt_ce_op.png  used on input line 251.
+(pdftex.def)             Requested size: 328.82707pt x 235.3239pt.
+
+
+[12 <./figs/bjt_ce_ckt.png (PNG copy)> <./figs/bjt_ce_op.png (PNG copy)>]
+<figs/bjt_ce_mb.png, id=80, 1886.04625pt x 862.22125pt>
+File: figs/bjt_ce_mb.png Graphic file (type png)
+<use figs/bjt_ce_mb.png>
+Package pdftex.def Info: figs/bjt_ce_mb.png  used on input line 257.
+(pdftex.def)             Requested size: 328.82707pt x 150.32524pt.
+<figs/bjt_ce_bw.png, id=81, 1885.0425pt x 857.2025pt>
+File: figs/bjt_ce_bw.png Graphic file (type png)
+<use figs/bjt_ce_bw.png>
+Package pdftex.def Info: figs/bjt_ce_bw.png  used on input line 262.
+(pdftex.def)             Requested size: 328.82707pt x 149.52873pt.
+<figs/bjt_ce_tr.png, id=82, 1887.05pt x 875.27pt>
+File: figs/bjt_ce_tr.png Graphic file (type png)
+<use figs/bjt_ce_tr.png>
+Package pdftex.def Info: figs/bjt_ce_tr.png  used on input line 267.
+(pdftex.def)             Requested size: 328.82707pt x 152.52013pt.
+
+
+[13 <./figs/bjt_ce_mb.png (PNG copy)> <./figs/bjt_ce_bw.png (PNG copy)> <./figs
+/bjt_ce_tr.png (PNG copy)>]
+<figs/bjt_ce_rin.png, id=87, 1899.095pt x 888.31876pt>
+File: figs/bjt_ce_rin.png Graphic file (type png)
+<use figs/bjt_ce_rin.png>
+Package pdftex.def Info: figs/bjt_ce_rin.png  used on input line 273.
+(pdftex.def)             Requested size: 328.82707pt x 153.80444pt.
+<figs/bjt_ce_rout.png, id=88, 1891.065pt x 870.25125pt>
+File: figs/bjt_ce_rout.png Graphic file (type png)
+<use figs/bjt_ce_rout.png>
+Package pdftex.def Info: figs/bjt_ce_rout.png  used on input line 278.
+(pdftex.def)             Requested size: 328.82707pt x 151.3136pt.
+
+Overfull \hbox (10.25735pt too wide) in paragraph at lines 291--299
+[]
+ []
+
+
+
+[14 <./figs/bjt_ce_rin.png (PNG copy)> <./figs/bjt_ce_rout.png (PNG copy)>]
+<figs/bjt_cc_ckt.png, id=92, 1443.3925pt x 905.3825pt>
+File: figs/bjt_cc_ckt.png Graphic file (type png)
+<use figs/bjt_cc_ckt.png>
+Package pdftex.def Info: figs/bjt_cc_ckt.png  used on input line 303.
+(pdftex.def)             Requested size: 328.82707pt x 206.25804pt.
+<figs/bjt_cc_op.png, id=93, 1256.695pt x 887.315pt>
+File: figs/bjt_cc_op.png Graphic file (type png)
+<use figs/bjt_cc_op.png>
+Package pdftex.def Info: figs/bjt_cc_op.png  used on input line 308.
+(pdftex.def)             Requested size: 328.82707pt x 232.17224pt.
+
+
+[15 <./figs/bjt_cc_ckt.png (PNG copy)> <./figs/bjt_cc_op.png (PNG copy)>]
+<figs/bjt_cc_mb.png, id=97, 1892.06876pt x 863.225pt>
+File: figs/bjt_cc_mb.png Graphic file (type png)
+<use figs/bjt_cc_mb.png>
+Package pdftex.def Info: figs/bjt_cc_mb.png  used on input line 314.
+(pdftex.def)             Requested size: 328.82707pt x 150.0129pt.
+<figs/bjt_cc_bw.png, id=98, 1880.02374pt x 861.2175pt>
+File: figs/bjt_cc_bw.png Graphic file (type png)
+<use figs/bjt_cc_bw.png>
+Package pdftex.def Info: figs/bjt_cc_bw.png  used on input line 319.
+(pdftex.def)             Requested size: 328.82707pt x 150.62332pt.
+<figs/bjt_cc_tr.png, id=99, 1882.03125pt x 864.22874pt>
+File: figs/bjt_cc_tr.png Graphic file (type png)
+<use figs/bjt_cc_tr.png>
+Package pdftex.def Info: figs/bjt_cc_tr.png  used on input line 324.
+(pdftex.def)             Requested size: 328.82707pt x 150.99173pt.
+
+
+[16 <./figs/bjt_cc_mb.png (PNG copy)> <./figs/bjt_cc_bw.png (PNG copy)> <./figs
+/bjt_cc_tr.png (PNG copy)>]
+<figs/bjt_cc_rin.png, id=103, 1892.06876pt x 868.24374pt>
+File: figs/bjt_cc_rin.png Graphic file (type png)
+<use figs/bjt_cc_rin.png>
+Package pdftex.def Info: figs/bjt_cc_rin.png  used on input line 330.
+(pdftex.def)             Requested size: 328.82707pt x 150.88506pt.
+<figs/bjt_cc_rout.png, id=104, 1882.03125pt x 855.195pt>
+File: figs/bjt_cc_rout.png Graphic file (type png)
+<use figs/bjt_cc_rout.png>
+Package pdftex.def Info: figs/bjt_cc_rout.png  used on input line 335.
+(pdftex.def)             Requested size: 328.82707pt x 149.41344pt.
+
+Overfull \hbox (2.77083pt too wide) in paragraph at lines 345--353
+[]
+ []
+
+
+
+[17 <./figs/bjt_cc_rin.png (PNG copy)> <./figs/bjt_cc_rout.png (PNG copy)>]
+<figs/bjt_cb_ckt.png, id=109, 1181.41376pt x 829.0975pt>
+File: figs/bjt_cb_ckt.png Graphic file (type png)
+<use figs/bjt_cb_ckt.png>
+Package pdftex.def Info: figs/bjt_cb_ckt.png  used on input line 357.
+(pdftex.def)             Requested size: 328.82707pt x 230.7541pt.
+<figs/bjt_cb_op.png, id=110, 1259.70625pt x 863.225pt>
+File: figs/bjt_cb_op.png Graphic file (type png)
+<use figs/bjt_cb_op.png>
+Package pdftex.def Info: figs/bjt_cb_op.png  used on input line 362.
+(pdftex.def)             Requested size: 328.82707pt x 225.32889pt.
+
+
+[18 <./figs/bjt_cb_ckt.png (PNG copy)> <./figs/bjt_cb_op.png (PNG copy)>]
+<figs/bjt_cb_mb.png, id=114, 1886.04625pt x 893.3375pt>
+File: figs/bjt_cb_mb.png Graphic file (type png)
+<use figs/bjt_cb_mb.png>
+Package pdftex.def Info: figs/bjt_cb_mb.png  used on input line 368.
+(pdftex.def)             Requested size: 328.82707pt x 155.75026pt.
+<figs/bjt_cb_bw.png, id=115, 1882.03125pt x 880.28876pt>
+File: figs/bjt_cb_bw.png Graphic file (type png)
+<use figs/bjt_cb_bw.png>
+Package pdftex.def Info: figs/bjt_cb_bw.png  used on input line 373.
+(pdftex.def)             Requested size: 328.82707pt x 153.79762pt.
+<figs/bjt_cb_tr.png, id=116, 1886.04625pt x 875.27pt>
+File: figs/bjt_cb_tr.png Graphic file (type png)
+<use figs/bjt_cb_tr.png>
+Package pdftex.def Info: figs/bjt_cb_tr.png  used on input line 378.
+(pdftex.def)             Requested size: 328.82707pt x 152.60025pt.
+
+
+[19 <./figs/bjt_cb_mb.png (PNG copy)> <./figs/bjt_cb_bw.png (PNG copy)> <./figs
+/bjt_cb_tr.png (PNG copy)>]
+<figs/bjt_cb_rin.png, id=121, 1885.0425pt x 864.22874pt>
+File: figs/bjt_cb_rin.png Graphic file (type png)
+<use figs/bjt_cb_rin.png>
+Package pdftex.def Info: figs/bjt_cb_rin.png  used on input line 384.
+(pdftex.def)             Requested size: 328.82707pt x 150.75436pt.
+<figs/bjt_cb_rout.png, id=122, 1885.0425pt x 869.2475pt>
+File: figs/bjt_cb_rout.png Graphic file (type png)
+<use figs/bjt_cb_rout.png>
+Package pdftex.def Info: figs/bjt_cb_rout.png  used on input line 389.
+(pdftex.def)             Requested size: 328.82707pt x 151.62984pt.
+
+Overfull \hbox (9.92332pt too wide) in paragraph at lines 400--407
+[] 
+ []
+
+
+
+[20 <./figs/bjt_cb_rin.png (PNG copy)> <./figs/bjt_cb_rout.png (PNG copy)>]
+(./main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 3180 strings out of 473190
+ 50614 string characters out of 5691840
+ 449322 words of memory out of 5000000
+ 26429 multiletter control sequences out of 15000+600000
+ 565146 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,16n,65p,394b,368s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt
+/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texliv
+e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></opt/texlive/2025/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2025/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/texlive/2025/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/2025/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></op
+t/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></opt/texliv
+e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (20 pages, 18144738 bytes).
+PDF statistics:
+ 181 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+
