@@ -11,6 +11,7 @@
 \usepackage{caption}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{hyperref}
 \usepackage{siunitx}
 \usepackage{amsmath}
 \usepackage{tikz}
@@ -182,6 +183,7 @@ Schokley's equation for the diode was used for curve fitting with parameters $I_
     \item Ideality factor ($\eta$) = $1.907$
     \item Saturation current ($I_s$) = $8.109nA$
 \end{itemize}
+Code used for curve-fitting can be found at, \url{https://github.com/ArjunPavanje/EE2301/blob/main/Experiment_5/codes/diode.py}
 \pagebreak
 \section{Small Signal Analysis}
 After fixing a bias point, a sine-wave of very small amplitude was applied to calculate small signal characteristics.
@@ -234,7 +236,7 @@ $V_s$ & $V_d$ \\
     \item Calculated: $\frac{\Delta V_D}{\Delta I_D} = 19.108280254776847\Omega$
 \end{itemize}
 $I_D$ is found by $\frac{V_S - V_D}{R}$. $\eta$ value calculated previously is used in theoretical calculation. Thus, small signal parameter $r_d$ is calculated and verified.
-
+Code used to calculate and verify small signal parameter ($r_d$) can be found at, \url{https://github.com/ArjunPavanje/EE2301/blob/main/Experiment_5/codes/rd.py}
 \section{FFT Harmonics}
 To observe FFT harmonics we reuse the circuit built previously,
 \begin{figure}[!ht]
@@ -409,7 +411,7 @@ Below are the pictures of the FFT mode on the oscilloscope for increasing $V_m$ 
     \includegraphics[width=\textwidth]{Experiment_5/figs/FFT_osc.png}
 \end{subfigure}
 \end{figure}
-
+Code used to calculate amplitudes can be found at, \url{https://github.com/ArjunPavanje/EE2301/blob/main/Experiment_5/codes/fft.py}
 \section{Conclusion}
 In this experiment, I-V characteristics of diodes were plotted and diode parameters $I_S$ (saturation current), $\eta$ (ideality factor) were found. Next, by giving a small AC-signal at a particular bias point, we estimate small signal parameter $r_d$ and verified it. Finally, using FFT mode, harmonics in diode current were observed by adjusting values of $V_{ac}$.
 \end{document}
