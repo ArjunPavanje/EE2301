@@ -185,7 +185,7 @@ where $A_{cm}$ is the common-mode gain,
     r_{tail} &= r_{o6}\parallel r_{o5}
 \end{align*}
 \begin{align*}
-    \mathbf{CMRR \approx 2g_{m1}r_{tail}}
+    \mathbf{CMRR \approx 20 \log \brak{2g_{m1}r_{tail}}}
 \end{align*}
 \vspace{6pt}
 \begin{figure}[H]
@@ -252,7 +252,9 @@ Where $\tau = R_{out} C_L = (r_{o1} \parallel r_{o7}) C_L$. Load capacitors must
     \centering
     \includegraphics[width=0.8\textwidth]{figs/transient.png}
 \end{figure}
+We observe that theoretical and observed transient response match.
 \section{Conclusion}
-In this experiment we have desgined and simulated a differential amplifier using MOSFETs, current mirror and active PMOS load. And then calculated and verified differential gain, input-referred offest, CMRR (common mode rejection ratio), input pair transconductance, output resistance, 3-dB bandwidth, transient response to step input.
-
+In this experiment we have desgined and simulated a differential amplifier using MOSFETs, current mirror and active PMOS load. And then calculated and verified differential gain, input-referred offest, CMRR (common mode rejection ratio), input pair transconductance, output resistance, 3-dB bandwidth, transient response to step input.\newline \newline 
+Some of the codes used may be found at \url{https://github.com/ArjunPavanje/EE2301/tree/main/Simluations/Experiment_4/codes} \newline
+Rquired circuit pictures (if needed) can also be found at, \url{https://github.com/ArjunPavanje/EE2301/tree/main/Simluations/Experiment_4/figs}
 \end{document}
