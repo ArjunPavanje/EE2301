@@ -163,9 +163,18 @@ We get,
 \end{itemize}
 \vspace{10pt}
 \section{Input-Referred Offset}
-
+When we give inputs $V_+=V_-$, we would expect $V_{out}$ to be 0 (as it is a differential amplifier), but however it turns out not to be the case. This is due to factors such as non-ideality of current mirror, MOSFETs, and slight variation in MOSFET parameters despite being similar MOSFETs among others.\newline
+$V_{OS}$ (Input-Referred Offset) is calculated by shorting $V_+, V_-$, sweeping across input voltage to find its value at the point where $V_{out}=0$.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Simluations/Experiment_4/figs/SOME_FUCKING_SHIT.png}
+\end{figure}
+Here, we get $V_{OS} \approx 358.6434\mu V$. It comes out to be similar when calculated using the formula 
+\begin{align*}
+    V_{OS} = \frac{\Delta V_T}{2} + \frac{V_{OV}}{2}\frac{\Delta Kp}{Kp}
+\end{align*}
+Where $V_{OV}$ is overdrive voltage, $\Delta V_T, \Delta Kp$ account for slight variations in $Kp, V_T$ values of seeming similar MOSFETs.
 \section{Common-Mode Rejection Ratio (CMRR)}
-\textbf{Theory:}
 \begin{align*}
 \textbf{CMRR} = 20 \log{\brak{\frac{A_{d}}{A_{cm}}} }
 \end{align*}
@@ -206,77 +215,44 @@ We get,
 \end{itemize}
 
 \vspace{10pt}
-\section{Output Resistance ($r_o$)}
-\textbf{Theory:}
+\section{Output Resistance}
+Output Resistance is defined as the ratio of potential difference and current as seen from output terminal.
 \begin{align*}
-    r_o &= \frac{1}{\lambda I_D} =  \frac{\partial V_{DS}}{\partial I_D}
+    R_o = \frac{V_{out}}{I_{out}}
 \end{align*}
-Output Resistance $R_o$ is given by, 
-\begin{align*}
-    R_o = r_{o1} \parallel r_{o7}
-\end{align*}
-$r_{o1}, r_{o7}$ are output resistances of NMOS M1 and PMOS M7 respectively.
-\vspace{6pt}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.55\textwidth]{ro_sweep.png}
+    \includegraphics[width=0.7\textwidth]{Simluations/Experiment_4/figs/output_resistance.png}
 \end{figure}
 \vspace{10pt}
-\section{Bandwidth ($f_{3dB}$)}
-\textbf{Theory:}
-\[
-f_{3dB} \approx \frac{1}{2 \pi R_{out} C_L}
-\]
+\section{3dB Bandwidth ($f_{3dB}$)}
+We need to calculate the frequency at which gain goes to $\text{Max. gain}-3dB$. That frequency is given by,
+\begin{align*}
+f_{3dB} = \frac{1}{2 \pi R_{out} C_L}
+\end{align*}
 \vspace{6pt}
-\textbf{Simulation:}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.55\textwidth]{bandwidth_plot.png}
-    \caption{Frequency response and $-3$\,dB bandwidth}
+    \includegraphics[width=0.8\textwidth]{figs/3dB.png}
 \end{figure}
-\vspace{6pt}
-\textbf{Calculation:}\\
-Use $R_{out}$ and $C_L$ to estimate bandwidth.
+We get,
+\begin{itemize}
+    \item Theoretical 3dB frequency: $158.835kHz$
+    \item Observed 3dB frequency: $157.36205KHz$
+\end{itemize}
 
 \vspace{10pt}
 \section{Transient Response}
-\textbf{Theory:}\\
-Step inputs test slew rate and settling time performance.
-\vspace{6pt}
-\textbf{Simulation:}
+We observe an exponential-charging (but shifted upward) like graph (similar to RC charging). This is given by the equation,
+\begin{align*}
+    V_{out}=V_{initial} + (V_{steady}-V_{initial})\brak{1-e^{\frac{-t}{\tau}}}
+\end{align*}
+Where $\tau = R_{out} C_L = (r_{o1} \parallel r_{o7}) C_L$. Load capacitors must be set to appropriate values (not too low, of order $\approx \mu F$) to properly observe expontial charging behaviour. While giving unit step input, rise time must be appropriately specified.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{transient_step.png}
-    \caption{Output waveform for step differential input}
+    \includegraphics[width=0.8\textwidth]{figs/transient.png}
 \end{figure}
-\vspace{6pt}
-\textbf{Calculation:}\\
-Hand-calculate expected rise/fall times from $f_{3dB}$.
-
-\vspace{15pt}
-\section{Summary Table}
-\begin{center}
-\begin{tabular}{@{} lcc @{}}
-\toprule
-\textbf{Parameter} & \textbf{Calculated} & \textbf{Simulated} \\
-\midrule
-DC Operating Point        & [your value] & [your value] \\
-Differential Gain $A_{dm}$& [your value] & [your value] \\
-CMRR (dB)                & [your value] & [your value] \\
-$g_m$ (mS)               & [your value] & [your value] \\
-$r_o$ (k$\Omega$)        & [your value] & [your value] \\
-Input Offset (mV)        & [your value] & [your value] \\
-Bandwidth $f_{3dB}$ (Hz) & [your value] & [your value] \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\vspace{15pt}
-\section{Discussion}
-Discuss the differences or agreements between simulation and hand calculations under each parameter above. Address device mismatch, $\lambda$ effects, and frequency limitations.
-
-\vspace{15pt}
 \section{Conclusion}
-Summarize the amplifier's performance and architectural suitability for analog VLSI. Discuss learnings and any optimal design choices for future iterations.
+In this experiment we have desgined and simulated a differential amplifier using MOSFETs, current mirror and active PMOS load. And then calculated and verified differential gain, input-referred offest, CMRR (common mode rejection ratio), input pair transconductance, output resistance, 3-dB bandwidth, transient response to step input.
 
 \end{document}
